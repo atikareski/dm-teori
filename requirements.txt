@@ -6,4 +6,4 @@ numpy
 Sastrawi
 matplotlib
 seaborn
-WordCloud
+wordcloud
