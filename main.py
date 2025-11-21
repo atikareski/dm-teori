@@ -114,3 +114,5 @@ else:
                     col1, col2 = st.columns(2)
                     with col1:
                         st.metric("Negatif", f"{prob_ensemble[0]*100:.1f}%")
+                    except:
+                        st.error("Terjadi error saat memproses.")
